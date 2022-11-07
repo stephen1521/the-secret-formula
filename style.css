@@ -1,0 +1,49 @@
+#partOne {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+#partTwo {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+#partThree {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+#partFour {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+#login{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.ingredients {
+    margin-bottom: 10px;
+}
+
+.partThreeInput {
+    margin-bottom: 10px;
+}
+
+.partFourInput {
+    margin-bottom: 10px;
+}
+
+.loginInput {
+    margin-bottom: 10px;
+}

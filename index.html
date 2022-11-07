@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form id="partOne">
+            <h2>Part 1</h2>
+            <label>Enter Some Text</label>
+            <input id="partOneInput" type="text" autocomplete="off" placeholder="Enter Text">
+            <button>Submit</button>
+        </form>
+    </div>
+    <div>
+        <form id="partTwo">
+            <h2>Part 2: Sandwich Builder</h2>
+            <h4>Sandwich Ingredients</h4>
+            <div class="ingredients">
+                <label>Ham</label>
+                <input id="ham" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Turkey</label>
+                <input id="turkey" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Roast Beef</label>
+                <input id="roastBeef" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Lettuce</label>
+                <input id="lettuce" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Tomato</label>
+                <input id="tomato" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Onions</label>
+                <input id="onions" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Pickles</label>
+                <input id="pickles" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Banana Peppers</label>
+                <input id="bananaPeppers" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Mayo</label>
+                <input id="Mayo" type="checkbox">
+            </div>
+            <div class="ingredients">
+                <label>Ketchup</label>
+                <input id="ketchup" type="checkbox">
+            </div>
+            <button>Submit Ingredients</button>
+        </form>
+    </div>
+    <div>
+        <form id="partThree">
+            <h2>Part 3: HairCut Appointment Scheduler</h2>
+            <div class="partThreeInput">
+                <label>Select an appointment date</label>
+                <input id="date" type="date">
+            </div>
+            <div class="partThreeInput">
+                <label>HairCutter</label>
+                <input id="hairCutter" type="text" autocomplete="off" placeholder="Haircutter Name(Optional)">
+            </div>
+            <div id="currenthair" class="partThreeInput">
+                <label>Long Hair</label>
+                <input id="longHair" type="radio" name="currentHair">
+                <label>Short Hair</label>
+                <input id="shortHair" type="radio" name="currentHair">
+            </div>
+            <button>Schedule Appointment</button>
+        </form>
+    </div>
+    <div>
+        <form id="partFour">
+            <h2>Part 4: Create Account</h2>
+            <h4>Creating an account</h4>
+            <div class="partFourInput">
+                <label>Enter Username</label>
+                <input id="usernameInput" type="text" autocomplete="off" placeholder="Enter Desired Username">
+            </div>
+            <div class="partFourInput">
+                <label>Enter Your Email</label>
+                <input id="emailInput" type="email" autocomplete="off" placeholder="Enter Your Email Address">
+            </div>
+            <div class="partFourInput">
+                <label>Enter Password</label>
+                <input id="password" type="password" autocomplete="off" placeholder="Enter Password">
+                <br class="partFourInput">
+                <label>Confirm Password</label>
+                <input id="confirmPassword" type="password" autocomplete="off" placeholder="Confirm Password">
+            </div>
+            <button>Create Account</button>
+        </form>
+    </div>
+    <div>
+        <form id="login">
+            <h2>User Login</h2>
+            <div class="loginInput">
+                <label>Username</label>
+                <input id="usernameLogin" type="text" autocomplete="off" placeholder="Enter your Username">
+            </div>
+            <div class="loginInput">
+                <label>Password</label>
+                <input id="loginPassword" type="password" autocomplete="off" placeholder="Enter your password">
+            </div>
+            <button>Login</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
